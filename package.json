@@ -127,6 +127,7 @@
   },
   "homepage": "https://buttercup.pw",
   "dependencies": {
+    "chalk": "^2.4.2",
     "opencollective": "^1.0.3"
   },
   "devDependencies": {
