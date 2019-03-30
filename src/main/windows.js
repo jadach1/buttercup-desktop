@@ -9,6 +9,7 @@ import { loadFile } from './lib/files';
 import { config } from '../shared/config';
 import { checkForUpdates } from './lib/updater';
 
+const chalk = require('chalk');
 const windowManager = getWindowManager();
 
 export function setupWindows(store) {
@@ -77,7 +78,14 @@ export function setupWindows(store) {
         callback(win);
       }
 
-      setTimeout(() => checkForUpdates(), ms('5s'));
+      setTimeout(
+        () =>
+          console.log(
+            chalk.red('******************iun windows check for upodte')
+          ),
+        checkForUpdates(),
+        ms('5s')
+      );
     });
 
     win.once('closed', () => {

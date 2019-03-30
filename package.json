@@ -164,6 +164,7 @@
     "babel-plugin-webpack-alias": "^2.1.2",
     "babel-plugin-webpack-loaders": "^0.9.0",
     "buttercup": "^2.7.0",
+    "chalk": "",
     "check-os-tray-support": "^2.0.0",
     "classnames": "^2.2.5",
     "concurrently": "^3.5.1",
